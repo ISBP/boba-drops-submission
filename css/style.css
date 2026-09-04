@@ -1,0 +1,81 @@
+div.Title{
+    text-align: left;
+    font-size: 50px;
+    padding-left: 10px;
+    width: 100%;
+}
+div.body{
+    width: 100%;
+    color: black;
+    height: 50vh;
+    background: white;
+    font-size: 35px;
+    p{
+        padding-left: 15px;
+    }
+
+}
+
+div.box{
+    width: 100%;
+    color: black;
+    height: 20vh;
+    background: white;
+    font-size: 25px;
+    padding-left: 10px;
+    a{
+        color: gray;
+
+    }
+    a:hover{
+        color: darkgray;
+    }
+
+
+}
+
+body{
+    background: black;
+    color: white;
+    font-family: endless, serif;
+}
+footer{
+    text-align: center;
+    justify-content: center;
+    a{
+        color: darkgray;
+        text-decoration: none;
+    }
+    a:hover{
+        color: gray;
+        text-decoration: underline;
+    }
+}
+/* Yes, I did get a little be of help from W3 schools, :sob: */
+.navbar{
+
+    height: 100%;
+    width: 150px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    right: 0;
+    background: rgb(0 0 0);
+    font-family: endless, serif;
+    overflow-x: hidden;
+    padding-top: 75px;
+    a{
+        color: white;
+        text-decoration: underline;
+        font-size: 35px;
+        padding-left: 10px;
+    }
+    a:hover{
+        color: gray;
+    }
+}
+
+@font-face {
+    font-family: endless;
+    src: url("/fonts/endless.ttf");
+}
